@@ -60,4 +60,29 @@ image-processing-filters-simulation/
    ```bash
    python main.py
    ```
+
 ## Screenshots
+
+### Splash Screen
+![Splash screen](screenshots/1.png)
+
+### Uploading image Screen: Initial
+![Uploading image Screen: Initial](screenshots/2.png)
+
+### Uploading image Screen: Opening file systems
+![Uploading image Screen: Opening file systems](screenshots/3.png)
+
+### Uploading image Screen: Choosing image
+![Uploading image Screen: Choosing image](screenshots/4.png)
+
+### Filters Screen
+![Filters Screen](screenshots/5.png)
+
+### Parameters Screen
+![Parameters Screen](screenshots/6.png)
+
+### Filtering Screen: progress bar shown
+![Filtering Screen: progress bar shown](screenshots/7.png)
+
+### Filtering results Screen
+![Filtering results Screen](screenshots/8.png)
