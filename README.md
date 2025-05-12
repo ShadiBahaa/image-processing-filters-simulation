@@ -33,3 +33,31 @@ image-processing-filters-simulation/
 └── main.py             # Main application script (GUI entry point):contentReference[oaicite:2]{index=2}
 
 ```
+
+
+## Technologies Used
+
+- **Python 3** — Core programming language.
+- **Tkinter** — GUI toolkit for building the desktop interface.
+- **OpenCV** — Image processing library.
+- **NumPy** — Numerical computing library used by OpenCV.
+
+## Installation and running
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ShadiBahaa/image-processing-filters-simulation.git
+   ```
+2. **Install dependencies:**
+    Ensure you have Python 3 installed. Then install the required Python libraries, for example: 
+   ```bash
+   pip install opencv-python numpy
+   ```
+   (Tkinter usually comes with Python. If Tkinter is not installed, install it via your system’s package manager, e.g., ```sudo apt-get install python3-tk``` on Debian/Ubuntu.)
+
+3. **Run the application:**
+   inside the folder, run the following command:
+   ```bash
+   python main.py
+   ```
+## Screenshots
