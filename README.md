@@ -14,13 +14,16 @@ This is a Python desktop application that provides an interactive GUI for applyi
 - **Interactive GUI:** A user-friendly Tkinter interface lets users select and apply filters with adjustable parameters (such as kernel size or cutoff frequency) and view the filtered image in real time.
 
 ## Project Structure
-
+```
 The repository is organized as follows:
-
-    main.py – The main Python script that implements the GUI and applies the image filters.
-
-    assets/ – Directory containing static assets (such as icons or default images) used by the application.
-
-    screens/ – Directory containing example screenshots referenced in this README.
-
-    README.md – Project documentation (this file).
+├── assets/                               # contain different images for background and testing
+├── screens/
+│ ├── comparison_screen.py                # screen that shows differences between original and filtered image
+│ ├── filter_selection_screen.py          # selecting specific filter
+│ ├── parameter_screen.py                 # select the specific parameters of the screen
+│ ├── processing_screen.py                # line by line visual processing of the image
+│ └── splash_screen.py                    # the first-to-appear screen
+│ └── upload_screen.py                    # used to choose which image to filter
+├── main.py                               # renders the screens one by one 
+└── README.md
+```
