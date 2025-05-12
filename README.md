@@ -23,13 +23,6 @@ image-processing-filters-simulation/
 │   ├── logo.png
 │   └── noisy.png
 ├── screens/               # Python modules for GUI screens
-│   ├── __pycache__/       # compiled bytecode (auto-generated)
-│   │   ├── comparison_screen.cpython-312.pyc
-│   │   ├── filter_selection_screen.cpython-312.pyc
-│   │   ├── parameter_screen.cpython-312.pyc
-│   │   ├── processing_screen.cpython-312.pyc
-│   │   ├── splash_screen.cpython-312.pyc
-│   │   └── upload_screen.cpython-312.pyc
 │   ├── comparison_screen.py        # Screen class for side-by-side image comparison
 │   ├── filter_selection_screen.py  # Screen to select different filters
 │   ├── parameter_screen.py         # Screen to set filter parameters
