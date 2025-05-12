@@ -15,15 +15,28 @@ This is a Python desktop application that provides an interactive GUI for applyi
 
 ## Project Structure
 ```
-The repository is organized as follows:
-├── assets/                               # contain different images for background and testing
-├── screens/
-│ ├── comparison_screen.py                # screen that shows differences between original and filtered image
-│ ├── filter_selection_screen.py          # selecting specific filter
-│ ├── parameter_screen.py                 # select the specific parameters of the screen
-│ ├── processing_screen.py                # line by line visual processing of the image
-│ └── splash_screen.py                    # the first-to-appear screen
-│ └── upload_screen.py                    # used to choose which image to filter
-├── main.py                               # renders the screens one by one 
-└── README.md
+image-processing-filters-simulation/
+├── assets/                # static image assets (e.g., icons, default images):contentReference[oaicite:0]{index=0}
+│   ├── 26xBwQSdpeHVRLrgY.webp
+│   ├── background.gif
+│   ├── background.webp
+│   ├── logo.png
+│   └── noisy.png
+├── screens/               # Python modules for GUI screens
+│   ├── __pycache__/       # compiled bytecode (auto-generated)
+│   │   ├── comparison_screen.cpython-312.pyc
+│   │   ├── filter_selection_screen.cpython-312.pyc
+│   │   ├── parameter_screen.cpython-312.pyc
+│   │   ├── processing_screen.cpython-312.pyc
+│   │   ├── splash_screen.cpython-312.pyc
+│   │   └── upload_screen.cpython-312.pyc
+│   ├── comparison_screen.py        # Screen class for side-by-side image comparison
+│   ├── filter_selection_screen.py  # Screen to select different filters
+│   ├── parameter_screen.py         # Screen to set filter parameters
+│   ├── processing_screen.py        # Screen showing filtering process/results
+│   ├── splash_screen.py            # Initial splash screen on launch
+│   └── upload_screen.py            # Screen to upload/select an image
+├── README.md            # Project documentation (this file):contentReference[oaicite:1]{index=1}
+└── main.py             # Main application script (GUI entry point):contentReference[oaicite:2]{index=2}
+
 ```
