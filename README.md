@@ -16,7 +16,7 @@ This is a Python desktop application that provides an interactive GUI for applyi
 ## Project Structure
 ```
 image-processing-filters-simulation/
-├── assets/                # static image assets (e.g., icons, default images):contentReference[oaicite:0]{index=0}
+├── assets/                # static image assets (e.g., icons, default images)
 │   ├── 26xBwQSdpeHVRLrgY.webp
 │   ├── background.gif
 │   ├── background.webp
@@ -29,8 +29,8 @@ image-processing-filters-simulation/
 │   ├── processing_screen.py        # Screen showing filtering process/results
 │   ├── splash_screen.py            # Initial splash screen on launch
 │   └── upload_screen.py            # Screen to upload/select an image
-├── README.md            # Project documentation (this file):contentReference[oaicite:1]{index=1}
-└── main.py             # Main application script (GUI entry point):contentReference[oaicite:2]{index=2}
+├── README.md            # Project documentation (this file)
+└── main.py             # Main application script (GUI entry point)
 
 ```
 
